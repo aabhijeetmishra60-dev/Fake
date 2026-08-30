@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700">
+<defs>
+ <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#090d1f"/><stop offset=".52" stop-color="#20134a"/><stop offset="1" stop-color="#071a2c"/></linearGradient>
+ <linearGradient id="glow" x2="0" y2="1"><stop stop-color="#9b5cff"/><stop offset="1" stop-color="#1a123b"/></linearGradient>
+ <filter id="b"><feGaussianBlur stdDeviation="12"/></filter>
+</defs>
+<rect width="1600" height="700" fill="url(#bg)"/>
+<circle cx="1190" cy="150" r="115" fill="#a36cff" opacity=".22" filter="url(#b)"/>
+<circle cx="1180" cy="145" r="58" fill="#d7c4ff" opacity=".12"/>
+<g fill="#a56cff" opacity=".55"><circle cx="250" cy="120" r="3"/><circle cx="460" cy="95" r="4"/><circle cx="760" cy="140" r="3"/><circle cx="1040" cy="75" r="4"/><circle cx="1420" cy="180" r="3"/></g>
+<!-- floating islands -->
+<g fill="#1a2731" stroke="#554078" stroke-width="3"><path d="M40 450l180-50 100 40-60 90-140 25z"/><path d="M1120 360l230-70 150 65-80 120-220 20z"/><path d="M620 270l150-40 95 40-50 80-160 15z"/></g>
+<g fill="#293d30"><rect x="110" y="350" width="120" height="60"/><rect x="1250" y="230" width="160" height="70"/><rect x="670" y="190" width="95" height="45"/></g>
+<!-- castle -->
+<g fill="#34405a" stroke="#7960a5" stroke-width="4"><rect x="1160" y="230" width="260" height="150"/><rect x="1180" y="150" width="55" height="230"/><rect x="1350" y="120" width="55" height="260"/><path d="M1170 150l37-55 28 55M1340 120l37-65 30 65"/></g>
+<g fill="#ffd66b"><rect x="1195" y="205" width="20" height="35"/><rect x="1365" y="170" width="20" height="40"/><rect x="1260" y="275" width="28" height="38"/></g>
+<!-- player -->
+<g stroke="#0a0712" stroke-width="7"><rect x="240" y="290" width="120" height="130" rx="8" fill="#2b2248"/><rect x="265" y="190" width="95" height="105" rx="12" fill="#f0b68e"/><rect x="250" y="170" width="125" height="50" fill="#25163d"/><rect x="215" y="410" width="55" height="145" fill="#161827"/><rect x="330" y="410" width="55" height="145" fill="#161827"/><path d="M350 335l100 65-28 38-105-58z" fill="#2b2248"/></g>
+<!-- sword -->
+<path d="M405 395l145-165 25 25-160 150z" fill="#e9d9ff" stroke="#b467ff" stroke-width="10"/><circle cx="555" cy="245" r="16" fill="#d38cff"/>
+<!-- ground haze -->
+<path d="M0 570 Q350 470 650 560 T1200 520 T1600 560 V700 H0z" fill="#07111c" opacity=".7"/>
+</svg>
